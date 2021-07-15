@@ -2,10 +2,11 @@
 
 namespace CabInvoiceGenerator
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            //UC1-Calculating fare
             Console.WriteLine("Welcome to CabInvoice Generator program!");
             InvoiceGenerator invoiceNormal = new InvoiceGenerator(RideType.NORMAL);
             invoiceNormal.CalculateFare(10, 5);
